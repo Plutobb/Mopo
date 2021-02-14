@@ -1,3 +1,4 @@
+import ServiceUser.serviceUser;
 import sun.net.www.ApplicationLaunchException;
 
 public class Test {
@@ -25,8 +26,8 @@ public class Test {
         }
     }
     public static void main(String[] args) {
-        System.out.println("hello world");
-        System.out.println("1");
+//        System.out.println("hello world");
+//        System.out.println("1");
 
 //        MyRunnable myRunnable = new MyRunnable(1);
 //        Thread thread = new Thread(myRunnable);
@@ -36,8 +37,9 @@ public class Test {
 //        Thread thread1 = new Thread(myRunnable2);
 //        thread1.start();
 
-        MyThread myThread = new MyThread();
-        myThread.start();
-
+//        MyThread myThread = new MyThread();
+//        myThread.start();
+        serviceUser serviceUser = new serviceUser();
+        serviceUser.getUser();
     }
 }
