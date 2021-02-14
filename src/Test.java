@@ -1,3 +1,5 @@
+import sun.net.www.ApplicationLaunchException;
+
 public class Test {
     public static class MyRunnable implements Runnable{
         private int id ;
@@ -25,7 +27,6 @@ public class Test {
     public static void main(String[] args) {
         System.out.println("hello world");
         System.out.println("1");
-
 
 //        MyRunnable myRunnable = new MyRunnable(1);
 //        Thread thread = new Thread(myRunnable);
