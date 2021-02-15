@@ -39,7 +39,8 @@ public class Test {
 
 //        MyThread myThread = new MyThread();
 //        myThread.start();
-        serviceUser serviceUser = new serviceUser();
-        serviceUser.getUser();
+//        serviceUser serviceUser = new serviceUser();
+//        serviceUser.getUser();
+
     }
 }
